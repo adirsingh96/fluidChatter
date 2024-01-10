@@ -11,7 +11,12 @@ const Header = () => {
     <AppBar
       sx={{ bgcolor: "transparent", position: "static", boxShadow: "none" }}
     >
-      <Toolbar sx={{ display: "flex" }}>
+      <Toolbar sx={{
+         display: "flex",
+         
+         
+         
+         }}>
         <Logo />
         <div>
           {auth?.isLoggedIn ? (
